@@ -3,7 +3,7 @@ entries:
   locust:
   - apiVersion: v1
     appVersion: 1.3.0
-    created: "2020-10-30T14:18:07.794551+01:00"
+    created: "2020-10-30T14:56:58.530148+01:00"
     description: |
       A chart to install Locust, a scalable load testing tool written in Python.
 
@@ -26,7 +26,7 @@ entries:
         --set loadtest.locust_locustfile_configmap=my-loadtest-locustfile \
         --set loadtest.locust_lib_configmap=my-loadtest-lib
       ```
-    digest: f7bce14cb43ac55a8ff5237afe77254e7be069d7ac6d8bfceb6b0d7af01183fd
+    digest: eb66e076c7e545f948953abd81ed1b35c23af3d8641f17c629f041e775e2a598
     home: https://github.com/locustio/locust
     icon: https://locust.io/static/img/logo.png
     maintainers:
@@ -36,4 +36,4 @@ entries:
     urls:
     - locust-0.6.tgz
     version: "0.6"
-generated: "2020-10-30T14:18:07.791623+01:00"
+generated: "2020-10-30T14:56:58.528894+01:00"
